@@ -1,0 +1,53 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>Images/Common/HomeIcon_Voice_n.png</file>
+        <file>Images/Common/HomeIcon_USB_n.png</file>
+        <file>Images/Common/HomeIcon_Setting_n.png</file>
+        <file>Images/Common/HomeIcon_Radio_n.png</file>
+        <file>Images/Common/HomeIcon_Phone_n.png</file>
+        <file>Images/Common/HomeIcon_IPod_n.png</file>
+        <file>Images/Common/HomeIcon_Carplay_n.png</file>
+        <file>Images/Common/HomeIcon_Carlife_n.png</file>
+        <file>Images/Common/HomeIcon_BTMusic_n.png</file>
+        <file>Images/Common/HomeIcon_Background.png</file>
+        <file>Images/Common/backgroud.png</file>
+        <file>Images/Common/tabback.png</file>
+        <file>Images/Common/tab_voice_p.png</file>
+        <file>Images/Common/tab_voice_n.png</file>
+        <file>Images/Common/tab_udisk_p.png</file>
+        <file>Images/Common/tab_udisk_n.png</file>
+        <file>Images/Common/tab_setting_p.png</file>
+        <file>Images/Common/tab_setting_n.png</file>
+        <file>Images/Common/tab_radio_p.png</file>
+        <file>Images/Common/tab_radio_n.png</file>
+        <file>Images/Common/tab_phone_p.png</file>
+        <file>Images/Common/tab_phone_n.png</file>
+        <file>Images/Common/tab_home_p.png</file>
+        <file>Images/Common/tab_home_n.png</file>
+        <file>Images/Common/tabcurrent.png</file>
+        <file>Images/Common/toolbarbg.png</file>
+        <file>Images/Radio/btn_radio_switch_n.png</file>
+        <file>Images/Radio/btn_prev_n.png</file>
+        <file>Images/Radio/btn_next_n.png</file>
+        <file>Images/Radio/btn_manual_search_n.png</file>
+        <file>Images/Radio/btn_auto_search_n.png</file>
+        <file>Images/Radio/btn_radio_switch_p.png</file>
+        <file>Images/Radio/btn_prev_p.png</file>
+        <file>Images/Radio/btn_next_p.png</file>
+        <file>Images/Radio/btn_manual_search_p.png</file>
+        <file>Images/Radio/btn_auto_search_p.png</file>
+        <file>Images/Common/listviewbg.png</file>
+        <file>Images/Common/list_line.png</file>
+        <file>Images/Common/list_select.png</file>
+        <file>Images/Common/listitem_pressed.png</file>
+    </qresource>
+    <qresource prefix="/Qmls">
+        <file>Qmls/MainWindow.qml</file>
+        <file>Qmls/HomePage.qml</file>
+        <file>Qmls/RadioPage.qml</file>
+        <file>Qmls/Toolbar.qml</file>
+        <file>Qmls/Tabview.qml</file>
+        <file>Qmls/RadioListView.qml</file>
+        <file>Qmls/HomeButton.qml</file>
+    </qresource>
+</RCC>
