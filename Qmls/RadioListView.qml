@@ -20,6 +20,7 @@ Rectangle {
             width: 180
             height: 40
             property bool flag: false
+            property variant mymodel: model
             Rectangle {
                 id: background
                 color: "transparent"
@@ -93,6 +94,10 @@ Rectangle {
         clip: true
         onContentYChanged: {
             console.log("onContentYChanged", contentY)
+        }
+        onCurrentIndexChanged: {
+            console.log(listView.currentIndex)
+            console.log(listView.currentItem.mymodel.name)
         }
     }
 
