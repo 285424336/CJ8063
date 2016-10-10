@@ -94,16 +94,16 @@ Rectangle {
                 if (null != toolbar) {
                     toolbar.x = 0
                     toolbar.y = 480 - 65 - 75
-                    toolbar.firstButtonNormalSource = "qrc:/Images/Images/Radio/btn_radio_switch_n.png"
-                    toolbar.firstButtonPressedSource = "qrc:/Images/Images/Radio/btn_radio_switch_p.png"
-                    toolbar.secondButtonNormalSource = "qrc:/Images/Images/Radio/btn_auto_search_n.png"
-                    toolbar.secondButtonPressedSource = "qrc:/Images/Images/Radio/btn_auto_search_p.png"
-                    toolbar.thirdButtonNormalSource = "qrc:/Images/Images/Radio/btn_prev_n.png"
-                    toolbar.thirdButtonPressedSource = "qrc:/Images/Images/Radio/btn_prev_p.png"
-                    toolbar.fourButtonNormalSource = "qrc:/Images/Images/Radio/btn_next_n.png"
-                    toolbar.fourButtonPressedSource = "qrc:/Images/Images/Radio/btn_next_p.png"
-                    toolbar.fiveButtonNormalSource = "qrc:/Images/Images/Radio/btn_manual_search_n.png"
-                    toolbar.fiveButtonPressedSource = "qrc:/Images/Images/Radio/btn_manual_search_p.png"
+//                    toolbar.firstButtonNormalSource = "qrc:/Images/Images/Radio/btn_radio_switch_n.png"
+//                    toolbar.firstButtonPressedSource = "qrc:/Images/Images/Radio/btn_radio_switch_p.png"
+//                    toolbar.secondButtonNormalSource = "qrc:/Images/Images/Radio/btn_auto_search_n.png"
+//                    toolbar.secondButtonPressedSource = "qrc:/Images/Images/Radio/btn_auto_search_p.png"
+//                    toolbar.thirdButtonNormalSource = "qrc:/Images/Images/Radio/btn_prev_n.png"
+//                    toolbar.thirdButtonPressedSource = "qrc:/Images/Images/Radio/btn_prev_p.png"
+//                    toolbar.fourButtonNormalSource = "qrc:/Images/Images/Radio/btn_next_n.png"
+//                    toolbar.fourButtonPressedSource = "qrc:/Images/Images/Radio/btn_next_p.png"
+//                    toolbar.fiveButtonNormalSource = "qrc:/Images/Images/Radio/btn_manual_search_n.png"
+//                    toolbar.fiveButtonPressedSource = "qrc:/Images/Images/Radio/btn_manual_search_p.png"
                     toolbar.toolbarButtonReleased.connect(onToolbarButtonReleased)
                 }
             }
