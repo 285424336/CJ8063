@@ -3,6 +3,8 @@ import QtQuick 2.6
 Rectangle {
     id: toolbar
     color: "transparent"
+    width: parent.width
+    height: 75
     property string firstButtonNormalSource: ""
     property string firstButtonPressedSource: ""
     property string secondButtonNormalSource: ""

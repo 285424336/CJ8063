@@ -8,9 +8,9 @@ Rectangle {
     width: 800
     height: 480
 
-    property Item tabview: null
-    property Item homePage: null
-    property Item radioPage: null
+    property Tabview tabview: null
+    property HomePage homePage: null
+    property RadioPage radioPage: null
     property var __showPage: null
 
     Image {
@@ -103,6 +103,7 @@ Rectangle {
                 }
             }
         }
+        console.log("1homePage", homePage)
     }
 
     function createRadioPage() {

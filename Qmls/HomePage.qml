@@ -84,7 +84,7 @@ Rectangle {
         id: componentDelegate
         Item {
             id: button
-            state: "released"
+            state: "default"
             width: 151
             height: 151
             Image {
@@ -121,6 +121,9 @@ Rectangle {
                 }
             }
             states: [
+                State {
+                    name: "default"
+                },
                 State {
                     name: "pressed"
                     PropertyChanges {

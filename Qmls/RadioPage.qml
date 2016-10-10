@@ -81,8 +81,8 @@ Rectangle {
     }
 
     Component.onCompleted: {
-        createToolbar()
         createRadioListView()
+        createToolbar()
 //        RadioInstance.somePropertyChanged.connect(onSomePropertyChanged)
     }
 
@@ -108,6 +108,7 @@ Rectangle {
                 }
             }
         }
+        console.log("toolbar", toolbar)
     }
 
     function createRadioListView() {
@@ -115,7 +116,7 @@ Rectangle {
         var component = Qt.createComponent("qrc:/Qmls/Qmls/RadioListView.qml")
             if (Component.Ready === component.status) {
                 radioListView = component.createObject(radioPage)
-                if (null !== listView) {
+                if (null !== radioListView) {
                     console.log("10071", radioListView.x, radioListView.y, radioListView.width, radioListView.height)
                 }
             }
