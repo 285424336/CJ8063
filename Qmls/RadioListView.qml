@@ -66,7 +66,7 @@ Rectangle {
                         }
                     }
                     onMouseYChanged: {
-//                        console.log("onMouseYChanged", index)
+                        //                        console.log("onMouseYChanged", index)
                         ++wrapper.moveCount
                         if (!wrapper.pressFlag) {
                             frontground.source = ""
@@ -143,16 +143,18 @@ Rectangle {
                 drag.target: scroll
                 drag.axis: Drag.YAxis
                 drag.minimumY: 0
-                drag.maximumY: scrollbar.height - scroll.height
+                drag.maximumY: (listView.contentHeight - listView.height) > 0 ? scrollbar.height - scroll.height : 0
                 onPressed: {
-//                    console.log("hahaonPressed");
+                    //                    console.log("hahaonPressed");
                 }
                 onReleased: {
-//                    console.log("hahaonReleased");
+                    //                    console.log("hahaonReleased");
                 }
                 onMouseYChanged: {
-                    console.log("haha", scroll.y)
-                    listView.contentY = getContenY()
+                    if ((listView.contentHeight - listView.height) > 0) {
+                        console.log("haha", scroll.y, listView.contentHeight - listView.height)
+                        listView.contentY = getContenY()
+                    }
                 }
                 function getContenY() {
                     return scroll.y / (scrollbar.height - scroll.height) * (listView.contentHeight - listView.height)
@@ -186,38 +188,6 @@ Rectangle {
 
     ListModel {
         id: contactModel
-        ListElement {
-            name: "frequency"
-            value: "88.0"
-        }
-        ListElement {
-            name: "frequency"
-            value: "88.0"
-        }
-        ListElement {
-            name: "frequency"
-            value: "88.0"
-        }
-        ListElement {
-            name: "frequency"
-            value: "88.0"
-        }
-        ListElement {
-            name: "frequency"
-            value: "88.0"
-        }
-        ListElement {
-            name: "frequency"
-            value: "88.0"
-        }
-        ListElement {
-            name: "frequency"
-            value: "88.0"
-        }
-        ListElement {
-            name: "frequency"
-            value: "88.0"
-        }
         ListElement {
             name: "frequency"
             value: "88.0"
