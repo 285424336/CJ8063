@@ -152,7 +152,7 @@ Rectangle {
                 }
                 onMouseYChanged: {
                     if ((listView.contentHeight - listView.height) > 0) {
-                        console.log("haha", scroll.y, listView.contentHeight - listView.height)
+                        console.log("haha", scroll.y, listView.contentHeight - listView.height, listView.count)
                         listView.contentY = getContenY()
                     }
                 }
@@ -236,5 +236,12 @@ Rectangle {
             name: "frequency"
             value: "88.0"
         }
+        Component.onCompleted: {
+            for (var i = 0; i < 100000; ++i) {
+                contactModel.append({"name":"frequency", "value":"18.0"})
+                console.log("onCompleted")
+            }
+        }
     }
+
 }
