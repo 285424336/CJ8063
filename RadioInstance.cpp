@@ -12,13 +12,13 @@ RadioInstance::RadioInstance(QObject *parent)
     : QObject(parent)
     , m_SomeProperty(0)
 {
-//    QTimer *timer = new QTimer(this);
-//    timer->start(500);
-//    connect(timer, &QTimer::timeout,
-//            [=]{
-//        int val = someProperty();
-//        setSomeProperty(++val);
-//    });
+    //    QTimer *timer = new QTimer(this);
+    //    timer->start(500);
+    //    connect(timer, &QTimer::timeout,
+    //            [=]{
+    //        int val = someProperty();
+    //        setSomeProperty(++val);
+    //    });
 }
 
 RadioInstance::~RadioInstance()

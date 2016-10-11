@@ -40,6 +40,10 @@
         <file>Images/Common/list_line.png</file>
         <file>Images/Common/list_select.png</file>
         <file>Images/Common/listitem_pressed.png</file>
+        <file>Images/Common/scroller_top_n .png</file>
+        <file>Images/Common/scroller_center_n.png</file>
+        <file>Images/Common/scroller_bottom_n.png</file>
+        <file>Images/Common/scroller_center_d.png</file>
     </qresource>
     <qresource prefix="/Qmls">
         <file>Qmls/MainWindow.qml</file>

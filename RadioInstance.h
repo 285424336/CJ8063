@@ -2,9 +2,8 @@
 #define RADIOINSTANCE_H
 
 #include <QObject>
+#include <mutex>
 
-class QQmlEngine;
-class QJSEngine;
 class RadioInstance : public QObject
 {
     Q_OBJECT
